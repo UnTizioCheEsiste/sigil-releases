@@ -1,12 +1,12 @@
 {
-  "version": "1.13.0-beta.2",
+  "version": "1.13.0-beta.3",
   "channel": "experimental",
-  "notes": "Sigil 1.13.0-beta.2 (Experimental)\r\n\r\nAdds confirmed Experimental opt-in, a separate signed update feed and the Relic character-sheet theme. Experimental uses a one-time copy of your Stable data in a separate local profile; subsequent edits do not synchronize. Turning Experimental off selects Stable updates and preserves this profile, while the installed binary remains Experimental until a newer compatible Stable build replaces it. Never automatically downgrades. Export/import requires compatible Character formats.\r\n\r\nWindows x64 installer includes WebView2. In-app updates use the existing trusted updater signing key; this installer is not Authenticode-signed.\r\n\r\nAlso prevents snapshot filename collisions when Windows returns identical timestamps to concurrent launches. The beta.1 publication was stopped by CI before any public release.\r\n",
-  "pub_date": "2026-10-20T22:44:18.864Z",
+  "notes": "# Sigil 1.13.0-beta.3 (Experimental)\r\n\r\n- Adds the Relic Dice Ritual: an original bone-and-stone tray, portal, impact, settling dice and illustrated result plaque.\r\n- Adds a globally selectable Relic skin for all supported dice, including percentile rolls.\r\n- Commits secure roll outcomes before animation; visible faces, history and fallback use the same result.\r\n- Adds event-driven ritual and collision sounds with mute, volume and Fast controls.\r\n- Supports skipping animation, reduced motion and a 2D fallback when graphics are unavailable.\r\n\r\nThis is an Experimental prerelease. Stable distribution remains unchanged.\r\n",
+  "pub_date": "2026-10-22T22:39:20.430Z",
   "platforms": {
     "windows-x86_64": {
-      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVSTlNrVDhGUmdXWGpPclgwTGtSOElUejBlRk1vTGJnc0hudTVNR0NZZVpOMER1ZzNoM0xibmJDV1dTTVZNbGVWM0pTZ1J1SGw2NlBUUCt4NHF6TjZiQ0NPWnlUbGhEcWc0PQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzkyNTM2MjU2CWZpbGU6U2lnaWxfMS4xMy4wLWJldGEuMl94NjQtc2V0dXAuZXhlCXZlcnNpb246MS4xMy4wLWJldGEuMgo3RWVrWlZMK1ZpVDFiQXVJN00wN2xwcFk2NjhjcXNlZ0VoaXJsMHVacGNnS0RKeUgyVGVRQTFqdjEwdFhwTER3KzdSbWtHOXZUK1lIRXhGcFBiamlBdz09Cg==",
-      "url": "https://github.com/UnTizioCheEsiste/sigil-releases/releases/download/v1.13.0-beta.2/Sigil-Windows-x64.exe"
+      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVSTlNrVDhGUmdXWGhSemVPcGRTcW9FM2xZOERmcmJEZjdaaEdPWEpwUVFpZFF2eUc2RjFPTXRJdi9qZ0U5QkxTb0xWTG1xNEVDQXlqVkVNWng2bHRyYUE4cjM3THQ3Q1FZPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzkyNzA4NzU5CWZpbGU6U2lnaWxfMS4xMy4wLWJldGEuM194NjQtc2V0dXAuZXhlCXZlcnNpb246MS4xMy4wLWJldGEuMwpoblY0RTlTZ0JrV1g0bXBqM2FacmxYUmdpVEtLdm1IWURaY01jRXJnQkFENjJVMVVvUGxEZGFXV0xmVWJjakxMTGR0QU45OHdTdjY4U2V1d2VBaThEdz09Cg==",
+      "url": "https://github.com/UnTizioCheEsiste/sigil-releases/releases/download/v1.13.0-beta.3/Sigil-Windows-x64.exe"
     }
   }
 }
